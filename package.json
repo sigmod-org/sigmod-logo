@@ -1,0 +1,13 @@
+{
+  "name": "sigmod-logo",
+  "private": true,
+  "type": "module",
+  "description": "Candidates for a new ACM SIGMOD logo",
+  "scripts": {
+    "build": "eleventy --quiet",
+    "serve": "eleventy --serve --port=8081 --quiet"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "3.1.2"
+  }
+}
